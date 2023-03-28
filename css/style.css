@@ -57,11 +57,11 @@ label {
   height: 100%;
   border-right: 0.5rem black solid;
   border-top: 5px rgb(12, 8, 8) solid;
-  overflow: scroll;
+  overflow:auto;
 }
 
 iframe {
-  overflow: scroll;
+  overflow: auto;
   width: 100%;
   background-color: azure;
   height: 100%;

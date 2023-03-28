@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Text editor</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <button id="dark">Dark</button>
+        <button id="light">Light</button>
+        <button id="fullscreen">Full</button>
+        <button id="run">Run</button>
+        <label for="live" class="liveBtn"> Live </label>
+        <input type="checkbox" id="live" />
+        <button id="clear">clear</button>
+      </nav>
+      <div class="text-editor">
+        <div class="text" contenteditable="true">write code here...</div>
+        <iframe frameborder="0" src="" class="result"> </iframe>
+      </div>
+    </div>
+    <button id="show-nav">show-feature</button>
+    <script src="js/main.js"></script>
+  </body>
+</html>
